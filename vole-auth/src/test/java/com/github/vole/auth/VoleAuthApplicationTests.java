@@ -24,6 +24,7 @@ public class VoleAuthApplicationTests {
     @Test
     public void contextLoads() {
         System.out.println(passwordEncoder().encode("1"));
+        System.out.println(passwordEncoder().encode("1"));
     }
 
 }
