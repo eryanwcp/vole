@@ -3,10 +3,10 @@ server:
 
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: 123456
-    url: jdbc:mysql://127.0.0.1:3309/vole?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    password: Password@237
+    url: jdbc:mysql://10.36.98.237:3309/vole?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
   elasticjob:
     zookeeper:
       server-lists: 127.0.0.1:2181

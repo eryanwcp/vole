@@ -40,18 +40,18 @@ sharding:
   jdbc:
     defaultDataSourceName:
       type: com.zaxxer.hikari.HikariDataSource
-      driver-class-name: com.mysql.jdbc.Driver
+      driver-class-name: com.mysql.cj.jdbc.Driver
       username: root
-      password: 12345678
-      jdbc-url: jdbc:mysql://127.0.0.1:3306/vole?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true&allowPublicKeyRetrieval=true
+      password: Password@237
+      jdbc-url: jdbc:mysql://10.36.98.237:3306/vole?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true&allowPublicKeyRetrieval=true&serverTimezone=UTC
     datasource:
       names: ds
       ds:
         type: com.zaxxer.hikari.HikariDataSource
-        driver-class-name: com.mysql.jdbc.Driver
+        driver-class-name: com.mysql.cj.jdbc.Driver
         username: root
-        password: 12345678
-        jdbc-url: jdbc:mysql://127.0.0.1:3306/vole?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true&allowPublicKeyRetrieval=true
+        password: Password@237
+        jdbc-url: jdbc:mysql://10.36.98.237:3306/vole?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true&allowPublicKeyRetrieval=true&serverTimezone=UTC
     config:
       sharding:
         tables:

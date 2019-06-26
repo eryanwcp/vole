@@ -4,7 +4,7 @@ import com.github.vole.common.constants.SecurityConstants;
 import com.github.vole.common.vo.RoleVO;
 import com.github.vole.common.vo.MemberVO;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.MethodParameter;
 import org.springframework.web.bind.support.WebDataBinderFactory;

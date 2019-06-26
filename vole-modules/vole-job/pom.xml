@@ -19,7 +19,7 @@
 
     <properties>
         <elastic-job.version>2.1.5</elastic-job.version>
-        <curator.version>2.10.0</curator.version>
+        <curator.version>4.2.0</curator.version>
     </properties>
 
 

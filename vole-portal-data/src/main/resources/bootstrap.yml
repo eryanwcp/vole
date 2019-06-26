@@ -10,6 +10,8 @@ spring:
         service-id: vole-config-server
         enabled: true
       profile: ${spring.profiles.active}
+  main:
+    allow-bean-definition-overriding: true
 
 eureka:
   instance:

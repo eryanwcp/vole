@@ -5,7 +5,7 @@ import com.github.vole.common.constants.CommonConstant;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.MDC;
 
 import javax.servlet.http.HttpServletRequest;

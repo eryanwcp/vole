@@ -1,6 +1,6 @@
 package com.github.vole.common.validate;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;

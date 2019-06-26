@@ -8,10 +8,10 @@ server:
 # datasoure默认使用JDBC
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: 12345678
-    url: jdbc:mysql://127.0.0.1:3306/vole?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+    password: Password@237
+    url: jdbc:mysql://10.36.98.237:3306/vole?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
   freemarker:
     allow-request-override: false
     allow-session-override: false
